@@ -9,7 +9,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 > git clone https://github.com/RichardRosario/ReactBlog.git
-> cd ReduxSimpleStarter
+> cd React-Redux Simple blog
 > npm install
 > npm start
 ```
