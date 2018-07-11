@@ -2,13 +2,14 @@
   "name": "blogApp",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
+  "repository": "https://github.com/RichardRosario/ReactBlog.git",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
+  "author": "Richard Rosario",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -27,6 +28,7 @@
     "react-redux": "5.0.7",
     "react-router-dom": "^4.3.1",
     "redux": "4.0.0",
+    "redux-form": "^6.6.3",
     "redux-promise": "^0.6.0"
   }
 }
